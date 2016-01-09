@@ -27,12 +27,20 @@ So, I had to write it myself.
 3. Set the deploy directory by replacing `[DEPLOY_DIR]` relative to the script.
 4. Set your timezone.
 5. Upload the script to your server.
-6. On GitHub, add a WebHook to your repo for a `push` event (or any other) and
+6. On GitHub, [add a WebHook][2] to your repo for a `push` event (or any other) and
 set it to the uploaded script.
 7. You're done!
 
 Now, whenever you `git push` to your github repo, it will be automatically deployed
 to your web server!
+
+## Adding a WebHook
+*You must have administrative access to the repo for adding WebHooks*   
+1. Go to your GitHub repo &raquo; `Settings` &raquo; `Webhooks & services`.
+2. Click `Add webhook`.
+3. Enter the URL of the github-autodeploy.php script in the `Payload URL` field.
+4. Leave everything else as is, click `Add webhook`.
+5. You're done!
 
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
@@ -45,3 +53,4 @@ Thanks!
 Check out the full license [here](LICENSE).
 
 [1]: https://google.com/+AfaanBilal "Afaan Bilal"
+[2]: #adding-a-webhook "Adding a WebHook"
