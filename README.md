@@ -13,7 +13,7 @@ fruitless. I needed to automatically deploy a web app to a shared server on whic
 access, as is required to achieve this. The other way was to setup a git repo on the server and 
 execute a `git pull` on each `git push` for the git server, but since it was a shared server, 
 there was no `exec` or `shell_exec` for me either.  
-So, finally, I had to write it myself. 
+So, I had to write it myself. 
 
 ## Features
 - No SSH access required.
@@ -44,4 +44,4 @@ Thanks!
 **GitHub AutoDeploy** is released under the MIT License.
 Check out the full license [here](LICENSE).
 
-[1](https://google.com/+AfaanBilal)
+[1]: https://google.com/+AfaanBilal "Afaan Bilal"
