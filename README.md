@@ -35,12 +35,13 @@ Now, whenever you `git push` to your github repo, it will be automatically deplo
 to your web server!
 
 ## Adding a WebHook
-*You must have administrative access to the repo for adding WebHooks*   
-1. Go to your GitHub repo &raquo; `Settings` &raquo; `Webhooks & services`. 
-2. Click `Add webhook`. 
-3. Enter the URL of the github-autodeploy.php script in the `Payload URL` field. 
-4. Leave everything else as is, click `Add webhook`. 
-5. You're done! 
+*You must have administrative access to the repo for adding WebHooks*
+
+1. Go to your GitHub repo &raquo; `Settings` &raquo; `Webhooks & services`.  
+2. Click `Add webhook`.  
+3. Enter the URL of the github-autodeploy.php script in the `Payload URL` field.  
+4. Leave everything else as is, click `Add webhook`.  
+5. You're done!  
 
 ## Contributing
 All contributions are welcome. Please create an issue first for any feature request
