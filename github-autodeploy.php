@@ -36,12 +36,12 @@ function writeLog($data)
     if (!file_exists(LOGFILE))
     {
         $logFile = fopen(LOGFILE, "a+");
-        fwrite($fh, "--------------------------------------------------------\n");
-        fwrite($fh, "|   PHP GitHub AUTO-DEPLOY                             |\n");
-        fwrite($fh, "|   https://afaan.ml/github-autodeploy                 |\n");
-        fwrite($fh, "|   (c) Afaan Bilal ( https://google.com/+AfaanBilal ) |\n");
-        fwrite($fh, "--------------------------------------------------------\n");
-        fwrite($fh, "\n\n");
+        fwrite($logFile, "--------------------------------------------------------\n");
+        fwrite($logFile, "|   PHP GitHub AUTO-DEPLOY                             |\n");
+        fwrite($logFile, "|   https://afaan.ml/github-autodeploy                 |\n");
+        fwrite($logFile, "|   (c) Afaan Bilal ( https://google.com/+AfaanBilal ) |\n");
+        fwrite($logFile, "--------------------------------------------------------\n");
+        fwrite($logFile, "\n\n");
         fclose($logFile);
     }
     
