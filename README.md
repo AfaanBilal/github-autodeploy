@@ -4,7 +4,7 @@ GitHub AutoDeploy
 Author: **Afaan Bilal ([@AfaanBilal](https://github.com/AfaanBilal))**   
 Author URL: **[Google+][1]**
 
-##### Project Page: [afaan.ml/github-autodeploy](https://afaan.ml/github-autodeploy)
+##### Project Page: [afaan.me/github-autodeploy](https://afaan.me/github-autodeploy)
 
 ## Introduction
 **GitHub AutoDeploy** is a PHP script to easily deploy web app repositories on `git push` or 
