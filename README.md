@@ -1,8 +1,7 @@
 GitHub AutoDeploy
 ==============
 
-Author: **Afaan Bilal ([@AfaanBilal](https://github.com/AfaanBilal))**   
-Author URL: **[Google+][1]**
+Author: **[Afaan Bilal](https://afaan.me)**  
 
 ##### Project Page: [afaan.me/github-autodeploy](https://afaan.me/github-autodeploy)
 
@@ -27,7 +26,7 @@ So, I had to write it myself.
 3. Set the deploy directory by replacing `[DEPLOY_DIR]` relative to the script.
 4. Set your timezone.
 5. Upload the script to your server.
-6. On GitHub, [add a WebHook][2] to your repo for a `push` event (or any other) and
+6. On GitHub, [add a WebHook][1] to your repo for a `push` event (or any other) and
 set it to the uploaded script.
 7. You're done!
 
@@ -53,5 +52,4 @@ Thanks!
 **GitHub AutoDeploy** is released under the MIT License.
 Check out the full license [here](LICENSE).
 
-[1]: https://google.com/+AfaanBilal "Afaan Bilal"
-[2]: #adding-a-webhook "Adding a WebHook"
+[1]: #adding-a-webhook "Adding a WebHook"
